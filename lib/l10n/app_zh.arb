@@ -1,0 +1,34 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Flutter 课程",
+  "catalogTitle": "Flutter Course 组件目录",
+  "@catalogTitle": { "description": "首页标题" },
+  "demoCount": "{count} 个示例",
+  "@demoCount": {
+    "description": "分类下的示例数量",
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "hello": "你好，{name}！",
+  "@hello": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "cartItems": "{count, plural, =0{购物车是空的} other{购物车里有 {count} 件商品}}",
+  "@cartItems": {
+    "description": "复数示例",
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "today": "今天是 {date}",
+  "@today": {
+    "placeholders": { "date": { "type": "DateTime", "format": "yMMMMEEEEd" } }
+  },
+  "price": "价格：{value}",
+  "@price": {
+    "placeholders": { "value": { "type": "double", "format": "simpleCurrency", "optionalParameters": { "decimalDigits": 2 } } }
+  },
+  "themeMode": "主题模式",
+  "themeSystem": "跟随系统",
+  "themeLight": "浅色",
+  "themeDark": "深色",
+  "language": "语言",
+  "languageSystem": "跟随系统"
+}

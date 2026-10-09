@@ -1,0 +1,7 @@
+# gen-l10n 配置：flutter pub get / flutter run 时自动生成 lib/l10n/app_localizations*.dart
+arb-dir: lib/l10n
+template-arb-file: app_zh.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+# of(context) 直接返回非空对象，用起来更方便
+nullable-getter: false
